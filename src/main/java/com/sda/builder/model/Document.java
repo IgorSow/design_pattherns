@@ -1,7 +1,8 @@
-package com.sda.model;
+package com.sda.builder.model;
 
 
 import java.time.Instant;
+import java.util.Arrays;
 import java.util.List;
 
 public class Document {
@@ -13,6 +14,10 @@ public class Document {
     private List<String> items;
 
     public static DocumentBuilder builder() {
+        return new DocumentBuilder();
+    }
+
+    public static DocumentBuilder builder(Document document){
         return new DocumentBuilder();
     }
 
@@ -80,6 +85,20 @@ public class Document {
         private String author = "Default Author";
         private List<String> items;
 
+        public DocumentBuilder(){
+
+        }
+        public DocumentBuilder(Document document){
+            this.title = document.title;
+            this.description = document.description;
+            this.creationDate = document.creationDate;
+            this.author = document.author;
+            this.items = document.items;
+
+
+
+        }
+
         public DocumentBuilder title(String title){
             this.title = title;
             return this;
@@ -109,6 +128,10 @@ public class Document {
         public Document build() {
             return new Document(title,description,creationDate,author,items);
         }
+
+
+
+
 
 
     }
