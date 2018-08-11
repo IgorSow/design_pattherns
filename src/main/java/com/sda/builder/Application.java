@@ -33,7 +33,7 @@ public class Application {
         Document document2 = new Document();
 
 
-        
+
         //builder
 
         Document documentByBuilder = Document.builder()
