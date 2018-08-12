@@ -1,0 +1,3 @@
+Na podstawie danych wejsciowych decydyje jakie obiekity stworzyć i rozpocząc ich tworzenie
+
+Odpytuje kazdy z elementów czy ma być wywołany dalej i "wzbudzonby" do zycia
