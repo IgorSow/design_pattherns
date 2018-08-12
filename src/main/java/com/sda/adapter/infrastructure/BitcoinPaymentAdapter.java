@@ -6,18 +6,24 @@ public class BitcoinPaymentAdapter implements Payment {
 
     private BitcoinSevice bitcoinSevice;
 
+    private BitcoinServiceFacade bitcoinServiceFacade;
+
     public BitcoinPaymentAdapter(BitcoinSevice bitcoinSevice) {
         this.bitcoinSevice = bitcoinSevice;
     }
 
     @Override
     public void pay(int amountInPLN) {
-        bitcoinSevice.logInToStock();
-        int moneyInUSD = changeFromPLNtoUSD(amountInPLN);
 
-        bitcoinSevice.transferMoneyToStock(moneyInUSD);
-        bitcoinSevice.buyBotCoins(moneyInUSD);
-        bitcoinSevice.transferTo("Z jednego konta ","na drugie konto", 5);
+        // to zostalo przezyucone do BITCOIN SERVICE FASADA
+//        bitcoinSevice.logInToStock();
+//        int moneyInUSD = changeFromPLNtoUSD(amountInPLN);
+//
+//        bitcoinSevice.transferMoneyToStock(moneyInUSD);
+//        bitcoinSevice.buyBotCoins(moneyInUSD);
+//        bitcoinSevice.transferTo("Z jednego konta ","na drugie konto", 5);
+
+        bitcoinServiceFacade.reqiestPayment("from","to",5);
     }
 
 
