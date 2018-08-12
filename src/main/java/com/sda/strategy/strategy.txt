@@ -1,0 +1,3 @@
+wzorzec do wykonywania jakiś akcji
+- w stategii chodzi o zadecydopwanie wykoanania akcji niz wykonanie i tworzenie logiki
+- strategia domysla sie i na podstawie danych wejsciowych decyduje co dalej robic

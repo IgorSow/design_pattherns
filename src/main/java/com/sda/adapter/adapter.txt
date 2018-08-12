@@ -1,0 +1,10 @@
+    //adapter jest czewscia adaptera, pozostaje tylko bardziej rozbudowany- w adapterze logika pozostaje prosta
+    // ma laczyc tylko systemy
+
+    //adapter ma tylko laczyc najwaznijesza czynnosc
+    //fasada ma dodatkowa logike - ma rozne
+
+    adapter słuzy  do łaczenia jednoczesnie paru róznych srodowisk
+    - np adapter do łączenia naszej aplikacji z baza danych
+    - prosty sposób łaczy tylko co co musi nie daje pełnej funkcjonalnosci
+    - warto implementowac z fasadą, i wywołać z niej calą logike

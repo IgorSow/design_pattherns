@@ -1,0 +1,15 @@
+Klasa umozliwiajaca tworzenie
+- ułatwienie tworzenia złozonych obiektow
+- dostarczenie do klasy w której bedziemy uzywac obiektow
+- mozna zaimplementowac z LOMBOCK - @Builder
+- ZALETA - nie trzeba tworzyc obiketow przez konstruktor
+- ZALETA - posiada szereg metod do ustawienia konkretnego pola, a pozostale zostana domyslne
+- ZALETA - jesli do konstruktora wpadnie dodatkowy parametr nie trzeba edytowac juz stworzonych konstruktorów
+- ZALETA - mozna tworzyc zmiennie typu FINAL nie ingeruje w istniejacy kod
+- builder nie musi miec tylko metod na polach - moze modyfikowac np.ITEMS a dodajemy pojedynczy ITEM
+- ostatecznie metoda ktora tworzy to .build() - dopiero ona wowoluje konstruktor
+- mozna stworzyc stworzyc dodatkowy konstruktor do edytowania juz istniejacy dokument
+
+STRING BUILDER
+
+- przy konkatulacji stringów nie tworzy par przedmiotow tylko dodaje calosc na raz

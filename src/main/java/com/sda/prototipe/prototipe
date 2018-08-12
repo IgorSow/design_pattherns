@@ -1,3 +1,5 @@
 Prototipe-
 
 moze mic wiecej niz jeden konstruktor - podawana jest ilosc konstruktorów do stworzenia
+
+to samo co singleton, lecz moze miec N konstruktorów

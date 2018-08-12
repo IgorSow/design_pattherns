@@ -1,3 +1,5 @@
-Na podstawie danych wejsciowych decydyje jakie obiekity stworzyć i rozpocząc ich tworzenie
+Wzorzec odpowiedzialny za:
 
-Odpytuje kazdy z elementów czy ma być wywołany dalej i "wzbudzonby" do zycia
+- na podstawie danych wejsciowych decydyje jakie obiekity stworzyć i rozpocząc ich tworzenie
+- przechodzi od elementu do elementu  pyta czy na podstawie danych wejsciowych chce "właczyc sie do akcji"
+- odpytuje kazdy z elementów czy ma być wywołany dalej i "wzbudzonby" do zycia

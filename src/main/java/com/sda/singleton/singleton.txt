@@ -1,0 +1,15 @@
+wzorzec
+ - anty wzorzec uwazany
+ - w przypadku wielowatkowej moze nastapic konfliktowość - trzeba synchronizować watki,gdyż odnosza się do tego
+        samego obiektu co jedoczesnie moze zapytac o to samo i żle nadpisać
+ - mozna tworzyc na 3 sposoby
+ - mozna stworzyc konstruktor za pomocą enuma - przez wowolanie - wywołanie paru stworzy wzorzec prototipe - gdyz mamy wiecej
+ niz jeden element
+ - pojecie dingletona wykorzystywame np w springu
+ - rzadko uzywane gdyz jest problematyczny
+
+        - tworzony odrazu
+                =new MyCloack
+
+         - leniwie
+                - dopiero w moemencie wywolania metody

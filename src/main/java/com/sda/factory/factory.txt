@@ -1,0 +1,7 @@
+-Wzorzec sluzy do tworzenia grupy obiketów
+- chcemy tworzyc grupy obiketow za jednym razem
+- pwtarzalne grupy elementow
+- fabryka abstrakcyjna - fabryka odpytuje inne fabryki co stworzyc np. abstrakcja silnik - wybiera czy spalinowy czy elektryczny
+- fabryka moze byc modyfikowalna np. enum LVL - może tworzyc elementy z konkretnym poziomem (parametr mnozocy razy lvl)
+
+

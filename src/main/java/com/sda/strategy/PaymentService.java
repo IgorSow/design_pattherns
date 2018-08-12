@@ -19,7 +19,7 @@ public class PaymentService {
         payment.pay(paymentModel.getAmount());
     }
 
-// strategia do,mysla sie i na podstawie danych wejsciowych decyduje co dalej robic
+
 
 
 
