@@ -1,7 +1,4 @@
-package com.sda.singletonExcample;
-
-import com.sda.singletonExcample.Consumer;
-import com.sda.singletonExcample.Producer;
+package com.sda.singleton.singletonExcample;
 
 public class Application {
     public static void main(String[] args) throws InterruptedException {

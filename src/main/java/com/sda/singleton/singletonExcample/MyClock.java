@@ -1,8 +1,6 @@
-package com.sda.singletonExcample;
+package com.sda.singleton.singletonExcample;
 
-import java.time.Clock;
 import java.time.Instant;
-import java.time.ZoneId;
 
 public class MyClock {
     private static MyClock instance = new MyClock();

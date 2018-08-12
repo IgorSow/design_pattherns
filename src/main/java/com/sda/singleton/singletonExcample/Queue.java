@@ -1,4 +1,4 @@
-package com.sda.singletonExcample;
+package com.sda.singleton.singletonExcample;
 
 import java.util.LinkedList;
 

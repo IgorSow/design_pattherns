@@ -1,8 +1,8 @@
-package com.sda.singletonExcample;
+package com.sda.singleton.singletonExcample;
 
 import com.sda.singleton.Queue;
 
-public class Producer implements Runnable {
+public class Consumer implements Runnable {
 
 
     @Override
@@ -10,12 +10,11 @@ public class Producer implements Runnable {
         System.out.println(MyClock.instanceOf().getCurrentTimeAsString());
         for (int i = 0; i < 1000; i++) {
             try {
-                Thread.sleep(1000);
+                Thread.sleep(1500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            Queue.instanceOf().push("TEST");
+            System.out.println("consumer " + Queue.instanceOf().pop());
         }
-
     }
 }
